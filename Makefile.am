@@ -1,6 +1,8 @@
 AM_CPPFLAGS = -std=c++11 -g
 
-test_PROGRAMS = sort_test
+check_PROGRAMS = sort_test
+
+TESTS = sort_test
 
 bin_PROGRAMS = array_sort 
 

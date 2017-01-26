@@ -1,7 +1,7 @@
 #include "selectionsort.hh"
 #include <algorithm>
 
-void SelectionSort::sort(int* array, int n) {
+void SelectionSort::sort(int* a, int n) {
   int i,j;
 
   for (j = 0; j < n-1; j++) {

@@ -1,5 +1,5 @@
 #initialize autoconf
-AC_INIT([Feature1], [0.0], [my@email.com], [mysite.com])
+AC_INIT([WinterProject], [0.0.1], [vicente.bolea@gmail.com], [mysite.com])
 
 #initialize automake 
 AM_INIT_AUTOMAKE([foreign subdir-objects])

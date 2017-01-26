@@ -13,5 +13,9 @@ ArrayGenerator::~ArrayGenerator() {
   delete algorithm;
 }
 
-ArrayGenerator::assing(int* p) { this->array = p; }
-ArrayGenerator::sort() { this->array = p; }
+void ArrayGenerator::assign(int* p, int s) { 
+  this->array = p; 
+  this->size = s; 
+}
+
+void ArrayGenerator::sort() { algorithm->sort(array, size); }

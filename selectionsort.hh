@@ -4,5 +4,5 @@
 class SelectionSort: public SortAlgorithm {
   public:
     ~SelectionSort () = default;
-    void sort(int*, int) override
+    void sort(int*, int) override;
 };

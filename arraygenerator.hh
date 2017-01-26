@@ -4,11 +4,13 @@
 class ArrayGenerator {
   public:
     ArrayGenerator(int);
-    void assign(int*);
+    ~ArrayGenerator();
+    void assign(int*, int);
     void sort();
 
   protected:
     int* array;
+    int size;
     
     SortAlgorithm* algorithm;
 };
