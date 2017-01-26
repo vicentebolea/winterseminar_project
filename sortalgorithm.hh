@@ -2,7 +2,6 @@
 
 class SortAlgorithm {
   public:
-    SortAlgorithm() = default;
-    //virtual ~SortAlgorithm () = 0;
+    virtual ~SortAlgorithm () { };
     virtual void sort(int*, int) = 0;
 };
